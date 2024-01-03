@@ -116,13 +116,5 @@
 ## System analysis and design
 
 
-## Config
-1. **Config Chart**
-
-    Open file `./config/cart.php`. You can set a tax, format number, etc.
-    > For More details, visit this link [hardevine/shoppingcart](https://packagist.org/packages/hardevine/shoppingcart).
-
-
-
 </div>
 
