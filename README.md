@@ -69,6 +69,10 @@
 
 ![back-user-admin](https://github.com/aslan-asilon31/aradan_pos_laravel10/assets/116990574/a38c0b8b-ca28-44f1-912a-e0636efa6c9b)
 
+### API Documentation using Swagger
+
+<img width="959" alt="api-doc-aradan-pos" src="https://github.com/aslan-asilon31/aradan_pos_laravel10/assets/116990574/19cbd9fa-711e-4d41-bee1-9b14a3665db4">
+
 
 </div>
 
@@ -102,6 +106,7 @@
 ##   Features for developers
 - Laravel 10 <br>
 - MySql <br>
+- API Documentation using Swagger </br>
 
 </div>
 
