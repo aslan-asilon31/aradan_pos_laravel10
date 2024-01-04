@@ -6,6 +6,9 @@
         <div class="col-lg-8">
             <div class="card auth-card">
                 <div class="card-body p-0">
+                    <div class="col-lg-12" style="text-align:center;padding:10px;">
+                        <img style="width:100px;" src="{{ asset('aslan-logo.png') }}" alt="" srcset="">
+                    </div>
                     <div class="d-flex align-items-center auth-content">
                         <div class="col-lg-7 align-self-center">
                             <div class="p-3">
@@ -69,11 +72,41 @@
                                                 <label>Confirm Password</label>
                                             </div>
                                         </div>
+
+                                        <div class="col-lg-12">
+                                            <div class="floating-label form-group">
+                                                <div class="g-recaptcha" data-sitekey="6LeYAc8oAAAAALz6rKxrBzA547gfsVVfhlUEvA_d"></div>
+                                            </div>
+                                        </div>
+                                        
                                     </div>
                                     <button type="submit" class="btn btn-primary">Register</button>
                                     <p class="mt-3">
                                         Already have an Account? <a href="{{ route('login') }}" class="text-primary">Log In</a>
                                     </p>
+
+                                    <div class="col-lg-12">
+                                        ------------- OR --------------
+                                    </div>
+
+                                    <div class="col-lg-12 ">
+                                        Login with other social medias <br>
+                                        <a href="/auth/google" class="">
+                                            <img style="width:50px;height:50px;" src="{{ asset('3d-icon/3d-icon-gmail.png') }}" alt="">
+                                        </a>
+                                        <a href="/auth/github" class="">
+                                            <img style="width:40px;height:40px;" src="{{ asset('3d-icon/3d-icon-github.png') }}" alt="">
+                                        </a>
+                                        <a href="/auth/facebook" class="">
+                                            <img style="width:50px;height:50px;" src="{{ asset('3d-icon/3d-icon-facebook.png') }}" alt="">
+                                        </a>
+                                        <a href="/auth/twitter" class="">
+                                            <img style="width:60px;height:60px;" src="{{ asset('3d-icon/3d-icon-twitter.png') }}" alt="">
+                                        </a>
+                                        <a href="/auth/discord" class="">
+                                            <img style="width:50px;height:50px;" src="{{ asset('3d-icon/3d-icon-discord.png') }}" alt="">
+                                        </a>
+                                    </div>
                                 </form>
                             </div>
                         </div>

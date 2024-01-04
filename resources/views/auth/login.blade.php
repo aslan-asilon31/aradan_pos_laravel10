@@ -5,6 +5,9 @@
     <div class="col-lg-8">
         <div class="card auth-card">
             <div class="card-body p-0">
+                <div class="col-lg-12" style="text-align:center;padding:10px;">
+                    <img style="width:100px;" src="{{ asset('aslan-logo.png') }}" alt="" srcset="">
+                </div>
                 <div class="d-flex align-items-center auth-content">
                     <div class="col-lg-7 align-self-center">
                         <div class="p-3">
@@ -38,6 +41,17 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
+                                        <div class="floating-label form-group">
+                                            <div class="g-recaptcha" data-sitekey="6LeYAc8oAAAAALz6rKxrBzA547gfsVVfhlUEvA_d"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="floating-label form-group">
+                                            <button type="submit" class="btn btn-primary">Login</button>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-12">
                                         Not a Member yet? <br> 
                                         <p >
                                             <a href="{{ route('register') }}" class="text-primary">Register</a> || 
@@ -68,7 +82,6 @@
                                     </div>
 
                                 </div>
-                                <button type="submit" class="btn btn-primary">Login</button>
                             </form>
                         </div>
                     </div>

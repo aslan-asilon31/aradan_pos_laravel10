@@ -21,6 +21,15 @@
 <div class="" id="screenshoot">
 ##  Screnshoots (not all pages in the screenshot) <br>
 
+### Login Page
+
+![front-login](https://github.com/aslan-asilon31/aradan_pos_laravel10/assets/116990574/24e0b54e-3f47-4bf5-96d9-d15cbea1942a)
+
+### Register Page
+
+![front-register](https://github.com/aslan-asilon31/aradan_pos_laravel10/assets/116990574/9cc9b8b7-0934-4f69-afc0-10aa3284b0bc)
+
+
 ### Admin Dashboard Page
 
 ![back-dashboard-admin](https://github.com/aslan-asilon31/aradan_pos_laravel10/assets/116990574/ce5e01de-b581-4e28-a9df-39e0fe144d35)

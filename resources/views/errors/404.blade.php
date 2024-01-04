@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Aradan POS | ERROR 404</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico') }}" />
+    <link rel="shortcut icon" href="{{ asset('aslan-logo.png') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/backend-plugin.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/vendor/remixicon/fonts/remixicon.css') }}">
 </head>
