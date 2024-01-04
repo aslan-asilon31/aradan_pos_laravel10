@@ -37,14 +37,36 @@
                                             <label>Password</label>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
-                                        <p>
-                                            Not a Member yet? <a href="{{ route('register') }}" class="text-primary">Register</a>
+                                    <div class="col-lg-12">
+                                        Not a Member yet? <br> 
+                                        <p >
+                                            <a href="{{ route('register') }}" class="text-primary">Register</a> || 
+                                            <a href="#" class="text-primary ">Forgot Password?</a>
                                         </p>
                                     </div>
-                                    <div class="col-lg-6">
-                                        <a href="#" class="text-primary float-right">Forgot Password?</a>
+                                    <div class="col-lg-12">
+                                        ------------- OR --------------
                                     </div>
+
+                                    <div class="col-lg-12 ">
+                                        Login with other social medias <br>
+                                        <a href="/auth/google" class="">
+                                            <img style="width:50px;height:50px;" src="{{ asset('3d-icon/3d-icon-gmail.png') }}" alt="">
+                                        </a>
+                                        <a href="/auth/github" class="">
+                                            <img style="width:40px;height:40px;" src="{{ asset('3d-icon/3d-icon-github.png') }}" alt="">
+                                        </a>
+                                        <a href="/auth/facebook" class="">
+                                            <img style="width:50px;height:50px;" src="{{ asset('3d-icon/3d-icon-facebook.png') }}" alt="">
+                                        </a>
+                                        <a href="/auth/twitter" class="">
+                                            <img style="width:60px;height:60px;" src="{{ asset('3d-icon/3d-icon-twitter.png') }}" alt="">
+                                        </a>
+                                        <a href="/auth/discord" class="">
+                                            <img style="width:50px;height:50px;" src="{{ asset('3d-icon/3d-icon-discord.png') }}" alt="">
+                                        </a>
+                                    </div>
+
                                 </div>
                                 <button type="submit" class="btn btn-primary">Login</button>
                             </form>

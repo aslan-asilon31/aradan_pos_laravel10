@@ -15,6 +15,7 @@ use App\Http\Controllers\Dashboard\DatabaseBackupController;
 use App\Http\Controllers\Dashboard\OrderController;
 use App\Http\Controllers\Dashboard\PosController;
 use App\Http\Controllers\Dashboard\RoleController;
+use App\Http\Controllers\Auth\SocialiteController;
 use App\Http\Controllers\Dashboard\UserController;
 
 /*
@@ -29,9 +30,11 @@ use App\Http\Controllers\Dashboard\UserController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
 
+Route::get('/auth/{provider}', [SocialiteController::class, 'redirectToProvider']);
+Route::get('/auth/{provider}/callback', [SocialiteController::class, 'handleProvideCallback']);
 
 // DEFAULT DASHBOARD & PROFILE
 Route::middleware('auth')->group(function () {

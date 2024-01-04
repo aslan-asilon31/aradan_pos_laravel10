@@ -15,6 +15,7 @@
         "kyslik/column-sortable": "^6.5",
         "laravel/framework": "^10.0",
         "laravel/sanctum": "^3.2",
+        "laravel/socialite": "^5.11",
         "laravel/tinker": "^2.8",
         "phpoffice/phpspreadsheet": "^1.28",
         "picqer/php-barcode-generator": "^2.2",
