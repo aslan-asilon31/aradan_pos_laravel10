@@ -24,11 +24,19 @@ class DatabaseSeeder extends Seeder
     {
         // \App\Models\User::factory(10)->create();
 
+        
+        $superadmin = \App\Models\User::factory()->create([
+            'name' => 'SuperAdmin',
+            'username' => 'superadmin',
+            'email' => 'superadmin@gmail.com',
+        ]);
+
         $admin = \App\Models\User::factory()->create([
             'name' => 'Admin',
             'username' => 'admin',
             'email' => 'admin@gmail.com',
         ]);
+
 
         $user = \App\Models\User::factory()->create([
             'name' => 'User',
@@ -73,7 +81,8 @@ class DatabaseSeeder extends Seeder
         Role::create(['name' => 'Account'])->givePermissionTo(['customer.menu', 'user.menu', 'supplier.menu']);
         Role::create(['name' => 'Manager'])->givePermissionTo(['stock.menu', 'orders.menu', 'product.menu', 'salary.menu', 'employee.menu']);
 
-        $admin->assignRole('SuperAdmin');
+        $superadmin->assignRole('SuperAdmin');
+        $admin->assignRole('Admin');
         $user->assignRole('Account');
     }
 }

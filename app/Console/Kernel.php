@@ -10,7 +10,8 @@ class Kernel extends ConsoleKernel
 
     
     protected $commands = [
-        'App\Console\Commands\Auto_Backup_Database'
+        // 'App\Console\Commands\Auto_Backup_Database',
+        'App\Console\Commands\BackupSeeders'
     ];
 
     protected function schedule(Schedule $schedule): void
