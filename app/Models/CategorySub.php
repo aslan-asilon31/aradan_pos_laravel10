@@ -10,6 +10,7 @@ class CategorySub extends Model
 {
     use HasFactory, Sortable;
 
+    // protected $table = 'category_subs';
     protected $fillable = [
         'cat_id',
         'name',

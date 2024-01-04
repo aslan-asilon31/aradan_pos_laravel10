@@ -12,52 +12,62 @@ class CategorySeeder extends Seeder
      */
     public function run(): void
     {
-        $category = \App\Models\Category::factory()->create([
+        DB::table('categories')->insert([
+            'cat_id' => '0',
             'name' => 'Fashion',
             'slug' => 'fashion',
         ]);
 
-        $category = \App\Models\Category::factory()->create([
+        DB::table('categories')->insert([
+            'cat_id' => '1',
             'name' => 'Food and Beverage',
             'slug' => 'food-and-beverage',
         ]);
 
-        $category = \App\Models\Category::factory()->create([
+        DB::table('categories')->insert([
+            'cat_id' => '2',
             'name' => 'Handicrafts',
             'slug' => 'handicrafts',
         ]);
 
-        $category = \App\Models\Category::factory()->create([
+        DB::table('categories')->insert([
+            'cat_id' => '3',
             'name' => 'Home and Living',
             'slug' => 'home-and-living',
         ]);
 
-        $category = \App\Models\Category::factory()->create([
+        DB::table('categories')->insert([
+            'cat_id' => '4',
             'name' => 'Beauty and Personal Care',
             'slug' => 'beautify-and-personal-care',
         ]);
 
-        $category = \App\Models\Category::factory()->create([
+        DB::table('categories')->insert([
+            'cat_id' => '5',
             'name' => 'Tech and Electronics',
             'slug' => 'tech-and-electronics',
         ]);
 
-        $category = \App\Models\Category::factory()->create([
+        DB::table('categories')->insert([
+            'cat_id' => '6',
             'name' => 'Toys and Games',
             'slug' => 'toys-and-games',
         ]);
 
-        $category = \App\Models\Category::factory()->create([
+        DB::table('categories')->insert([
+            'cat_id' => '7',
             'name' => 'Health and Wellness',
             'slug' => 'health-and-wellness',
         ]);
 
-        $category = \App\Models\Category::factory()->create([
+        DB::table('categories')->insert([
+            'cat_id' => '8',
             'name' => 'Jewelry',
             'slug' => 'jewelry',
         ]);
 
-        $category = \App\Models\Category::factory()->create([
+        DB::table('categories')->insert([
+            'cat_id' => '9',
             'name' => 'Books and Stationery',
             'slug' => 'books-and-stationery',
         ]);

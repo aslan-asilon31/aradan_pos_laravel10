@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Dashboard\ProductController;
 use App\Http\Controllers\Dashboard\ProfileController;
 use App\Http\Controllers\Dashboard\CategoryController;
+use App\Http\Controllers\Dashboard\CategorySubController;
 use App\Http\Controllers\Dashboard\CustomerController;
 use App\Http\Controllers\Dashboard\EmployeeController;
 use App\Http\Controllers\Dashboard\SupplierController;
@@ -94,6 +95,11 @@ Route::middleware(['permission:product.menu'])->group(function () {
 // ====== CATEGORY PRODUCTS ======
 Route::middleware(['permission:category.menu'])->group(function () {
     Route::resource('/categories', CategoryController::class);
+});
+
+// ====== CATEGORY SUB PRODUCTS ======
+Route::middleware(['permission:categorysub.menu'])->group(function () {
+    Route::resource('/categorysubs', CategorySubController::class);
 });
 
 // ====== POS ======

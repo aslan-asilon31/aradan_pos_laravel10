@@ -62,6 +62,7 @@ class DatabaseSeeder extends Seeder
         }
         Category::factory(5)->create();
 
+        Permission::create(['name' => 'categorysub.menu', 'group_name' => 'categorysub']);
         Permission::create(['name' => 'pos.menu', 'group_name' => 'pos']);
         Permission::create(['name' => 'employee.menu', 'group_name' => 'employee']);
         Permission::create(['name' => 'customer.menu', 'group_name' => 'customer']);

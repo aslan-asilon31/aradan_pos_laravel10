@@ -110,14 +110,14 @@
 - Attendance
 - Role and Permission
 - Users Management
-- Backup Database
 
 ##   Features for developers
 - Laravel 10 <br>
 - MySql <br>
 - API Documentation using Swagger </br>
 - google Recaptcha v2 </br>
-- Cron Jon Daily Backup Database </br>
+- Backup Database </br>
+- Backup Folder Seeders </br>
 
 </div>
 

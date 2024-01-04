@@ -91,6 +91,11 @@
                                 <i class="fa-solid fa-arrow-right"></i><span>Categories</span>
                             </a>
                         </li>
+                        <li class="{{ Request::is(['categorysubs*']) ? 'active' : '' }}">
+                            <a href="{{ route('categorysubs.index') }}">
+                                <i class="fa-solid fa-arrow-right"></i><span>Sub Categories</span>
+                            </a>
+                        </li>
                     </ul>
                 </li>
                 @endif
