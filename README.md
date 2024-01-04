@@ -117,6 +117,7 @@
 - MySql <br>
 - API Documentation using Swagger </br>
 - google Recaptcha v2 </br>
+- Cron Jon Daily Backup Database </br>
 
 </div>
 
