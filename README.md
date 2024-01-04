@@ -116,6 +116,7 @@
 - Laravel 10 <br>
 - MySql <br>
 - API Documentation using Swagger </br>
+- google Recaptcha v2 </br>
 
 </div>
 
